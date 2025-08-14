@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "shilpa101-rg2" {
   name     = var.rg2_name
   location = var.rg2_location
 }
+
+resource "azurerm_resource_group" "shilpa101-rg3" {
+  name     = var.rg3_name
+  location = var.rg3_location
+}
