@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "Dev-rg1" {
   location = var.rg1_location
 }
 
-resource "azurerm_resource_group" "Dev-rg2" {
+resource "azurerm_resource_group" "shilpa102-rg2" {
   name     = var.rg2_name
   location = var.rg2_location
 }
